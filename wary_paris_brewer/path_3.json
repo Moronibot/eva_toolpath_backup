@@ -1,0 +1,59 @@
+{
+    "id": 3,
+    "name": "path_3",
+    "hash": "bbbab30b36262d5e2d13bcdeca44763bcf8e8cda2f6118277b7f9c09e3cde98a",
+    "toolpath": {
+        "metadata": {
+            "version": 2,
+            "default_max_speed": 0.25,
+            "next_label_id": 3,
+            "analog_modes": {
+                "i0": "voltage",
+                "i1": "voltage",
+                "o0": "voltage",
+                "o1": "voltage"
+            },
+            "payload": 0
+        },
+        "waypoints": [
+            {
+                "joints": [
+                    1.5970186,
+                    0.74966013,
+                    -2.0484064,
+                    -0.05858068,
+                    -1.4811037,
+                    2.404109
+                ],
+                "label_id": 1
+            },
+            {
+                "joints": [
+                    1.5976897,
+                    0.9059392,
+                    -1.8361351,
+                    -0.05829305,
+                    -1.0644234,
+                    2.4060264
+                ],
+                "label_id": 2
+            }
+        ],
+        "timeline": [
+            {
+                "type": "home",
+                "waypoint_id": 0
+            },
+            {
+                "type": "trajectory",
+                "trajectory": "joint_space",
+                "waypoint_id": 1
+            },
+            {
+                "type": "trajectory",
+                "trajectory": "joint_space",
+                "waypoint_id": 0
+            }
+        ]
+    }
+}
